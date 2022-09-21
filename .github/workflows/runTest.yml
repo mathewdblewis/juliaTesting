@@ -1,0 +1,10 @@
+on:
+  workflow_call:
+  
+jobs:
+  run-julia-code:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: run julia code
+        run: echo testing
