@@ -16,4 +16,5 @@ jobs:
       - name: run test1
         run: julia test1.jl
       - name: run test2
-        run: julia test1.jl
+        run: julia test2.jl
+
