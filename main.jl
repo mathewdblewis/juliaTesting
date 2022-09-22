@@ -1,8 +1,6 @@
 using SumOfSquares
 x=42
 @show x
-Sparsity.Monomial()
-Sparsity.NoPattern()
+@which Monomial
+@which NoPattern
 # Sparsity.Symmetry()
-
-
