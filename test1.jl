@@ -1,3 +1,3 @@
 using SumOfSquares
-@which Monomial
-@which NoPattern
+Sparsity.Monomial()
+Sparsity.NoPattern()
