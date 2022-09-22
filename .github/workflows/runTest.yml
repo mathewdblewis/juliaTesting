@@ -13,5 +13,7 @@ jobs:
         uses: actions/checkout@v3
       - name: install package
         run: julia install.jl
-      - name: run julia code
-        run: julia main.jl
+      - name: run test1
+        run: julia test1.jl
+      - name: run test2
+        run: julia test1.jl
