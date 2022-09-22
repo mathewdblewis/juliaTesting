@@ -1,2 +1,2 @@
 using SumOfSquares
-@which Symmetry
+Sparsity.Symmetry()
