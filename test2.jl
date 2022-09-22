@@ -1,3 +1,3 @@
 using SumOfSquares
 @show 42
-Sparsity.Symmetry()
+@show Sparsity.Symmetry()
