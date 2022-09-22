@@ -1,0 +1,18 @@
+name: run tests 2
+
+on:
+  workflow_dispatch:
+  
+jobs:
+  run-julia-code:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+      - name: install package
+        run: julia install.jl
+      - name: run main
+        run: julia main.jl
+
