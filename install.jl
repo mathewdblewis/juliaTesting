@@ -1,1 +1,2 @@
-using Pkg; Pkg.add("SumOfSquares@0.6.2")
+using Pkg
+Pkg.add(Pkg.PackageSpec(;name="SumOfSquares", version="0.6.2"))
