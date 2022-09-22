@@ -1,4 +1,3 @@
 using SumOfSquares
 Sparsity.Symmetry()
-x=42
-@show x
+@show 42
